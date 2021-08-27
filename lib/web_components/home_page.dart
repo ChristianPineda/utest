@@ -9,6 +9,7 @@ class MyHomePage extends StatelessWidget {
           child: Text('Degradados'),
         )
       ),
+
       body: Center(
         child: Container(
           decoration: BoxDecoration(
@@ -16,8 +17,8 @@ class MyHomePage extends StatelessWidget {
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
               colors: [
-                Colors.blue,
-                Colors.red,
+                Colors.indigo.shade900,
+                Colors.purpleAccent,
               ],
             )
           ),
